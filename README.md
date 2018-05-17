@@ -3,8 +3,10 @@
 ## Summary
 
 I had some difficulty getting create-react-app 2.0 (beta) and storybook working properly with SASS and SVG.
-It turns out the new SASS compilation provided in create-react-app 2.0 doesn't automatically come over.
-In a nutshell, you need to extend storybook's webpack.config.js to include it. Also you can't use storybook 4.0 Alpha versions, at least at the time of this writing.
+It turns out the new SASS compilation provided in create-react-app 2.0 doesn't automatically work in storybook.
+In a nutshell, you need to extend storybook's webpack.config.js with some rules. 
+
+> Note: At the time of this writing, this does not work with storybook 4.0 Alpha versions.
 
 ## Instructions
 
